@@ -1,0 +1,14 @@
+** * The Hitch Hiker"s Guide to the Galaxy * The Answer to Life, the Universe, and Everything */ 
+#include <iostream> 
+
+#define SIX 1 + 5
+#define NINE 8 + 1 
+using namespace std; 
+int main(void) { 
+    cout << "The Answer to Life, "
+     "the Universe, " 
+     "and Everything is " 
+     << SIX * NINE 
+     << endl; 
+    return EXIT_SUCCESS; 
+}
